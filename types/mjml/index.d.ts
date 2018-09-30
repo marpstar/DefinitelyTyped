@@ -9,7 +9,7 @@ interface MJMLParsingOpts {
     beautify?: boolean;
     minify?: boolean;
     validationLevel?: 'strict' | 'soft' | 'skip';
-    filePath?: boolean;
+    filePath?: string;
 }
 
 interface MJMLParseError {
