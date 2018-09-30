@@ -7,4 +7,5 @@ let formattedMessage = errors[0].formattedMessage;
 formattedMessage = "force string test";
 
 const minimal_opts_test = mjml2html("<mjml>", {beautify: true});
+const filePath_is_string = mjml2html("<mjml>", {filePath: "./templates"});
 const validation_level_test = mjml2html("<mjml>", {validationLevel: "strict"});
